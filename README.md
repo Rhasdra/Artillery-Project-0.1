@@ -1,5 +1,5 @@
 # Artillery-Project
-Worms Inspired Artillery Gane
+Worms Inspired Artillery Game
 
 ## Current Struggles:
 I feel somewhat confident in my ability to make the scripts work, but I need some guidance in the whole architecture and organization of the project
