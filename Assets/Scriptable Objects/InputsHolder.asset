@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a6f69eedbae43b9f7db8767fea20, type: 3}
+  m_Name: InputsHolder
+  m_EditorClassIdentifier: 
+  horizontalValue: 0
+  longJumpDown: 0
+  backFlipJumpDown: 0
+  verticalValue: 0
+  verticalDown: 0
+  powerValue: 0
+  powerDown: 0
+  fireDown: 0
+  cycleShotsDown: 0
+  t1Down: 0
+  t2Down: 0
+  t3Down: 0
+  skipTurnDown: 0
+  cameraMoveHorizontalValue: 0
+  cameraMoveVerticalValue: 0
+  cameraCenterDown: 0
