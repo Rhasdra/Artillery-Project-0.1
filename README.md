@@ -1,5 +1,6 @@
 # Artillery-Project
-Worms Inspired Artillery Game
+Worms Inspired Artillery Game  
+To-Do list and planning board: https://miro.com/app/board/uXjVOC7Wvj8=/?share_link_id=887270065442
 
 ## Current Struggles:
 I feel somewhat confident in my ability to make the scripts work, but I need some guidance in the whole architecture and organization of the project
