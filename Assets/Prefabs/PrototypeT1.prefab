@@ -126,7 +126,6 @@ GameObject:
   - component: {fileID: 431103053291125054}
   - component: {fileID: 1428058461508711670}
   - component: {fileID: 1200062095847871665}
-  - component: {fileID: 7584428107990123820}
   m_Layer: 7
   m_Name: PrototypeT1
   m_TagString: Untagged
@@ -188,24 +187,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.14
---- !u!114 &7584428107990123820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3119381660214213312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae35e0124c8f43b4aaa9e4002959fdbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidBody: {fileID: 1428058461508711670}
-  spawner: {fileID: 1288886254549050093}
-  sprite: {fileID: 1234984846172076951}
-  wpnSO: {fileID: 11400000, guid: 54d11eb65dbdc7a49b3ad4566ffcf540, type: 2}
-  power: {fileID: 0}
-  explosion: {fileID: 2905322779389107251, guid: c7f466c1303ae294e8b71bd09ef2a328, type: 3}
-  hitAngle: 0
-  hitPosition: {x: 0, y: 0, z: 0}
-  damage: 0

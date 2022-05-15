@@ -4,12 +4,22 @@ using UnityEngine;
 
 public class ExplosionScript : MonoBehaviour
 {
+    [SerializeField] Collider2D col;
     [SerializeField] private float radius = 2f;
     [SerializeField] private float baseDamage = 250f;
 
-    private void Start() 
+    public void Explode(bool isDirectHit) 
     {
-        transform.localScale = new Vector3(radius*2f, radius*2f, radius*2f);
+        if (!isDirectHit)
+        {
+            transform.localScale = new Vector3(radius*2f, radius*2f, radius*2f);
+            this.GetComponent<Collider2D>().enabled = true;
+        }
+        else
+        {
+            transform.localScale = new Vector3(radius, radius, radius);
+            this.GetComponent<Collider2D>().enabled = true;  
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) 

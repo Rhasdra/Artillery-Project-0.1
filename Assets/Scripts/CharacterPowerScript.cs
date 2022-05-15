@@ -18,7 +18,7 @@ public class CharacterPowerScript : MonoBehaviour
     {
         holdTimer = holdTimerDefault;
     }
-
+    
     private void Update() 
     {
         AdjustPower(input.powerValue , input.powerDown);

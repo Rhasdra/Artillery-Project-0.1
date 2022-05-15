@@ -53,7 +53,6 @@ public class TurnsManagerScript : MonoBehaviour
        
        
         NextTurnEvent?.Invoke();
-
     }
 
     void EndTurn()
