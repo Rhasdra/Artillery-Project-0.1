@@ -49,7 +49,7 @@ public class TMP_projInterfaces : ProjectileBase
         // var damageable = other.gameObject.GetComponent<IDamageable>();
         // if (damageable == null) return;
 
-        ProjHit(other.gameObject);
+        //ProjHit(other.gameObject);
     }
 
     void Raycast()
@@ -77,8 +77,8 @@ public class TMP_projInterfaces : ProjectileBase
         _trajectoryBehaviour.Trajectory();
     }
     
-    public override void ProjHit(GameObject go)
-    {
-        _projHitBehaviour.ProjHit(_transform, go, damage);
-    }
+    // public override void ProjHit(GameObject go)
+    // {
+    //     _projHitBehaviour.ProjHit(_transform, go, damage);
+    // }
 }

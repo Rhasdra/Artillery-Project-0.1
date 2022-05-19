@@ -21,8 +21,8 @@ public class ProjHitExplosion : IProjHit
         {
             damageable.TakeDamage(damage);
 
-            var explosion = Instantiate(_explosion, hitPosition.position, hitPosition.rotation);
-            explosion.GetComponent<ExplosionScript>().Explode(damageable.isCharacter());
+            // var explosion = Instantiate(_explosion, hitPosition.position, hitPosition.rotation);
+            // explosion.GetComponent<ExplosionScript>().Explode(damageable.isCharacter());
         }
 
     }
